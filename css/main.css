@@ -189,11 +189,12 @@ header li{
 }
 h1,h2,h3{
     margin: 1em 0;
-    font-size: 2.4vw;
+    font-size: 3vw;
 }
 .double{
     font-size: 3vw;
     margin: 30px 0;
+
 }
 p{
     font-size: 2vw;
@@ -255,7 +256,10 @@ h1,h2,h3{
     font-size: 5vw;
     text-align: center;
 }
-
+.double{
+    font-size: 5vw;
+    margin: 30px 0;
+}
 .slider{
     display: grid;
     grid-template-columns: auto auto auto auto;
