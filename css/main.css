@@ -15,7 +15,7 @@ a{
 }
 header, footer{
     background-color: rgb(58, 64, 73);
-    padding: 0 5%;
+    padding: 0 8%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 header a:hover{
@@ -183,6 +183,12 @@ footer a{
     font-size: 1vw;
     margin-top: 20px;
 }
+.col{
+    flex-flow: column wrap;
+}
+.mar{
+     margin:50px 0;
+}
 @media only screen and (max-width: 1200px) {
     #crop{
         display: none;
@@ -224,6 +230,27 @@ footer p, footer ul{
     font-size: 2vw;
 }
 
+    footer .flex{
+        display: block;
+        min-width: 100%;
+    }
+    footer .flex iframe{
+        display: block;
+        margin: 0 auto;
+    }
+    .hide{
+        display: none;
+    }
+    .col{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        min-width: 90vw;
+    }
+    .mar{
+        width: max-content;
+    }
 }
 
 
@@ -318,6 +345,27 @@ main p{
     }
     #copy{
         font-size: 2vw;
+    }
+.col{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+.mar{
+    display: block;
+    min-width: 90vw;
+    margin:50px 0;
+    text-align: center;
+}
+    .mar ul{
+        display: block;
+        margin: 0 auto;
+    }
+    .hide{
+        display: block;
+        min-width: 90vw;
+        margin: 0 auto;
     }
 }
 
